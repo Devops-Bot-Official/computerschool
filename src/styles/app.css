@@ -1,0 +1,13 @@
+/* Additional small styles to complement Tailwind for this minimal app */
+
+a {
+  color: inherit;
+}
+
+/* Subtle card border that works in light/dark */
+.card-border {
+  border: 1px solid rgba(15,23,42,0.06);
+}
+.dark .card-border {
+  border: 1px solid rgba(255,255,255,0.04);
+}
